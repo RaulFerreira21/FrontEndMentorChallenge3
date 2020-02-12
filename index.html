@@ -6,6 +6,7 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
   
   <title>Frontend Mentor | Intro component with sign up form</title>
 
@@ -19,7 +20,7 @@
 
   <div id="main">
 
-      <article style="width: 50%; display: flex; align-self: center; padding: 100px;" >
+      <article id="firstArticle" style="width: 50%; display: flex; align-self: center; padding: 100px;" >
           <section>
             <h1>Learn to code by watching others</h1>
             <br/>
@@ -42,37 +43,21 @@
       ">
             <form>
               <input type="text" placeholder="First Name">
-              <input type="text" placeholder="First Name">
-              <input type="text" placeholder="First Name">
-              <input type="text" placeholder="First Name">
-              <button>CLAIN YOUR FREE TRIAL</button>
+              <input type="text" placeholder="Last Name">
+              <input type="text" placeholder="Email Address">
+              <input type="password" placeholder="Password">
+              <button onclick=validateCamps()>CLAIN YOUR FREE TRIAL</button>
             </form>
             <h6>By clicking the button, you are agreeing to our <b style="color: red">Terms and Services</b></h6>
           </div>
         </aside>
 
   </div>
-
-  
-  Learn to code by watching others
-
-  
-
-  Try it free 7 days then $20/mo. thereafter
-
-  First Name 
-  Last Name 
-  Email Address
-  Password
-
-  Claim your free trial 
-
-  By clicking the button, you are agreeing to our Terms and Services
   
   <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Coded by <a href="#">Raul Ferreira</a>.
     </p>
   </footer>
 </body>

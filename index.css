@@ -30,6 +30,8 @@ input{
     padding: 0 2px;
     height: 40px;
     margin: 10px 0;
+    cursor: pointer;
+    
 }
 #topForm{
     text-align: center;
@@ -59,4 +61,16 @@ button{
     color: white;
     margin-bottom: 10px;
     height: 40px;
+}
+@media (max-width: 410px){
+    #firstArticle{
+        width: 100% !important;
+        padding: 0 !important
+    }
+    #main{
+        flex-wrap: wrap !important;
+    }
+    aside{
+        width: 100% !important
+    }
 }
